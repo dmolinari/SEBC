@@ -1,8 +1,8 @@
 ```
 {
-  "timestamp" : "2016-09-22T19:57:35.359Z",
+  "timestamp" : "2017-12-01T00:07:35.359Z",
   "clusters" : [ {
-    "name" : "Sharop",
+    "name" : "DMolinari",
     "version" : "CDH5",
     "services" : [ {
       "name" : "hdfs",
@@ -486,7 +486,7 @@
           "roleType" : "OOZIE_SERVER",
           "items" : [ {
             "name" : "oozie_database_host",
-            "value" : "siberiano.sharop.net"
+            "value" : "siberiano"
           }, {
             "name" : "oozie_database_password",
             "value" : "Code0Passion."
@@ -560,7 +560,7 @@
         } ],
         "items" : [ {
           "name" : "hive_metastore_database_host",
-          "value" : "siberiano.sharop.net"
+          "value" : "siberiano"
         }, {
           "name" : "hive_metastore_database_password",
           "value" : "Code0Passion."
@@ -620,7 +620,7 @@
         "roleTypeConfigs" : [ ],
         "items" : [ {
           "name" : "database_host",
-          "value" : "siberiano.sharop.net"
+          "value" : "siberiano"
         }, {
           "name" : "database_password",
           "value" : "Code0Passion."
@@ -833,40 +833,32 @@
   } ],
   "hosts" : [ {
     "hostId" : "i-a8a8763f",
-    "ipAddress" : "172.31.25.154",
-    "hostname" : "bengala.sharop.net",
+    "ipAddress" : "10.0.2.7",
+    "hostname" : "bengala.southcentralus.cloudapp.azure.com",
     "rackId" : "/default",
     "config" : {
       "items" : [ ]
     }
-  }, {
-    "hostId" : "i-a9a8763e",
-    "ipAddress" : "172.31.25.155",
-    "hostname" : "bombay.sharop.net",
-    "rackId" : "/default",
-    "config" : {
-      "items" : [ ]
-    }
-  }, {
+  },{
     "hostId" : "i-afa87638",
-    "ipAddress" : "172.31.25.153",
-    "hostname" : "persa.sharop.net",
+    "ipAddress" : "10.0.2.6",
+    "hostname" : "persa.southcentralus.cloudapp.azure.com",
     "rackId" : "/default",
     "config" : {
       "items" : [ ]
     }
   }, {
     "hostId" : "i-aba8763c",
-    "ipAddress" : "172.31.25.157",
-    "hostname" : "siames.sharop.net",
+    "ipAddress" : "10.0.2.5",
+    "hostname" : "siames.southcentralus.cloudapp.azure.com",
     "rackId" : "/default",
     "config" : {
       "items" : [ ]
     }
   }, {
     "hostId" : "i-aaa8763d",
-    "ipAddress" : "172.31.25.156",
-    "hostname" : "siberiano.sharop.net",
+    "ipAddress" : "10.0.2.4",
+    "hostname" : "siberiano.southcentralus.cloudapp.azure.com ",
     "rackId" : "/default",
     "config" : {
       "items" : [ ]
@@ -1115,10 +1107,10 @@
       "value" : "BQIAAAA5AAEAClNIQVJPUC5ORVQADGNsb3VkZXJhLXNjbQAAAAFX5B4fAQAXABDzaINFtWTB1Nxm54mkH2eV"
     }, {
       "name" : "KDC_ADMIN_USER",
-      "value" : "cloudera-scm@SHAROP.NET"
+      "value" : "cloudera-scm@DMOLINARI.NET"
     }, {
       "name" : "KDC_HOST",
-      "value" : "siames.sharop.net"
+      "value" : "siames.southcentralus.cloudapp.azure.com"
     }, {
       "name" : "KRB_ENC_TYPES",
       "value" : "arcfour-hmac"
@@ -1130,7 +1122,7 @@
       "value" : "ON_PUBLIC_CLOUD"
     }, {
       "name" : "SECURITY_REALM",
-      "value" : "SHAROP.NET"
+      "value" : "DMOLINARI.NET"
     } ]
   }
 }
