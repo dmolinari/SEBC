@@ -1,11 +1,11 @@
 * Stoping
 
-curl -X POST -u admin:admin http://siberiano:7180/api/v2/clusters/Sharop/services/hive/commands/stop
+curl -X POST -u admin:admin http://siberiano:7180/api/v2/clusters/DMolinari/services/hive/commands/stop
 ```
 {
   "id" : 1242,
   "name" : "Stop",
-  "startTime" : "2016-09-23T03:24:14.674Z",
+  "startTime" : "2017-12-01T01:24:14.674Z",
   "active" : true,
   "serviceRef" : {
     "clusterName" : "cluster",
@@ -21,8 +21,8 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1242
 {
   "id" : 1242,
   "name" : "Stop",
-  "startTime" : "2016-09-23T03:24:14.674Z",
-  "endTime" : "2016-09-23T03:24:27.976Z",
+  "startTime" : "2017-12-01T01:24:14.674Z",
+  "endTime" : "2017-12-01T01:24:14.674Z",
   "active" : false,
   "success" : true,
   "resultMessage" : "Successfully stopped service.",
@@ -34,8 +34,8 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1242
     "items" : [ {
       "id" : 1243,
       "name" : "Stop",
-      "startTime" : "2016-09-23T03:24:14.675Z",
-      "endTime" : "2016-09-23T03:24:27.976Z",
+      "startTime" : "2017-12-01T01:24:14.674Z",
+      "endTime" : "2017-12-01T01:24:14.674Z",
       "active" : false,
       "success" : true,
       "resultMessage" : "Successfully stopped process.",
@@ -51,8 +51,8 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1242
     }, {
       "id" : 1244,
       "name" : "Stop",
-      "startTime" : "2016-09-23T03:24:14.677Z",
-      "endTime" : "2016-09-23T03:24:27.973Z",
+      "startTime" : "2017-12-01T01:24:14.674Z",
+      "endTime" : "2017-12-01T01:24:14.674Z",
       "active" : false,
       "success" : true,
       "resultMessage" : "Successfully stopped process.",
@@ -71,12 +71,12 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1242
 ```
 * Starting
 
-curl -X POST -u admin:admin http://siberiano:7180/api/v2/clusters/Sharop/services/hive/commands/start
+curl -X POST -u admin:admin http://siberiano:7180/api/v2/clusters/DMolinari/services/hive/commands/start
 ```
 {
   "id" : 1248,
   "name" : "Start",
-  "startTime" : "2016-09-23T03:26:38.437Z",
+  "startTime" : "2017-12-01T01:24:14.674Z",
   "active" : true,
   "serviceRef" : {
     "clusterName" : "cluster",
@@ -92,7 +92,7 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1248
 {
   "id" : 1248,
   "name" : "Start",
-  "startTime" : "2016-09-23T03:26:38.437Z",
+  "startTime" : "2017-12-01T01:24:14.674Z",
   "active" : true,
   "serviceRef" : {
     "clusterName" : "cluster",
@@ -102,7 +102,7 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1248
     "items" : [ {
       "id" : 1250,
       "name" : "Start",
-      "startTime" : "2016-09-23T03:26:38.524Z",
+      "startTime" : "2017-12-01T01:24:14.674Z",
       "active" : true,
       "serviceRef" : {
         "clusterName" : "cluster",
@@ -116,7 +116,7 @@ curl -u admin:admin http://siberiano:7180/api/v2/commands/1248
     }, {
       "id" : 1249,
       "name" : "Start",
-      "startTime" : "2016-09-23T03:26:38.463Z",
+      "startTime" : "2017-12-01T01:24:14.674Z",
       "active" : true,
       "serviceRef" : {
         "clusterName" : "cluster",
