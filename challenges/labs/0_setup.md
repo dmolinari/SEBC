@@ -28,6 +28,20 @@ Standard DS4 v2 Promo (8 vcpu, 28 GB de memoria)
 
 + 2 discos de 80 GB
 
+[dmolinari@yakko opt]$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        32G  2.6G   29G   9% /
+devtmpfs         14G     0   14G   0% /dev
+tmpfs            14G     0   14G   0% /dev/shm
+tmpfs            14G  8.4M   14G   1% /run
+tmpfs            14G     0   14G   0% /sys/fs/cgroup
+/dev/sdc         79G   62M   75G   1% /disk1
+/dev/sda1       497M  142M  356M  29% /boot
+/dev/sdb1        55G  2.1G   51G   4% /mnt/resource
+/dev/sdd         79G   58M   75G   1% /disk2
+tmpfs           2.8G     0  2.8G   0% /run/user/1000
+
+
 ```
 
 * List the command and output for yum repolist enabled
